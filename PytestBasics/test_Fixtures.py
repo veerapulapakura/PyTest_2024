@@ -12,7 +12,7 @@ def init_driver():
     driver.get("https://www.facebook.com/")
 
     yield
-    print(' -----   Setup method   ------ ')
+    print(' -----   Setup method   ------ --main')
     driver.quit()
 
 def test_facebook(init_driver):
